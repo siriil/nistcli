@@ -2288,7 +2288,7 @@ def output_html(vendor, product, version, language, results, filename):
         f.write(html)
     print(msg)
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Lookup CVEs in NIST NVD")
     parser.add_argument("-vr", required=True, help="Vendor", metavar="<VENDOR>")
     parser.add_argument("-p", required=True, help="Product", metavar="<PRODUCT>")
@@ -2328,3 +2328,6 @@ if __name__ == "__main__":
         else:
             filename = args.oHTML
         output_html(vendor, product, version, language, results, filename)
+
+if __name__ == "__main__":
+    main()
