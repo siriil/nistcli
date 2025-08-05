@@ -9,7 +9,7 @@ Puedes buscar por fabricante, producto y versión, y obtener los resultados (ing
 Para instalar `nistcli` utiliza `pipx`:
 
 ```bash
-pipx install git+<URL>
+pipx install git+https://github.com/siriil/nistcli.git
 ```
 
 ## Uso
