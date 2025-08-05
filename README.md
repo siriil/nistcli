@@ -6,10 +6,10 @@ Puedes buscar por fabricante, producto y versión, y obtener los resultados (ing
 
 ## Instalación
 
-Para instalar `nistcli` utiliza `pipx`:
+Instalar `nistcli` con `pipx`en linux:
 
 ```bash
-pipx ensurepath
+pipx ensurepath && source ~/.bashrc
 pipx install git+https://github.com/siriil/nistcli.git
 ```
 
