@@ -40,10 +40,10 @@ options:
 
 Aquí puedes ver un ejemplo de cómo se ve la salida en la terminal:
 
-![Captura de pantalla de la terminal](URL)
+![Captura de pantalla de la terminal](images/C1.png)
 
 ### Informe HTML
 
 Y aquí una captura del informe HTML generado:
 
-![Captura de pantalla del informe HTML](URL)
+![Captura de pantalla del informe HTML](images/C2.png)
